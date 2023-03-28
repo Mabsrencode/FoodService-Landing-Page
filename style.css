@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*
+{
+	margin: 0;
+	padding:0
+}
+.wrapper
+{
+	width: 1170px;
+	margin: 0 auto;
+}
+header
+{
+	height: 70px;
+	background: #8FBDD3;
+	width: 100%;
+	z-index: 12;
+	position: fixed;
+}
+.logo
+{
+	width: 30%;
+	float: left;
+	line-height: 70px;
+	margin-left: -300px;
+}
+.logo a
+{
+	text-decoration: none;
+	font-size: 35px;
+	font-family: 'Bebas Neue', cursive;
+	color: #fff;
+	letter-spacing: 1px;
+}
+nav
+{
+	float: right;
+	line-height: 70px;
+	margin-right: -300px;
+}
+nav a{
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 2px;
+	font-size: 20px;
+	margin: 0 10px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+.fa-circle-user
+{
+	font-size: 20px;
+	color: #fff;
+}
+.banner-area
+{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: 70px;
+	background-image: url(bg1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.banner-area .banner-welcome{
+	padding-top: 8%;
+	font-size: 70px;
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	color: black;
+	text-align: center;
+}
+.content-area
+{
+	width: 100%;
+	position: absolute;
+	top: 500px;
+	background: #ddd;
+	height: 180px;
+	font-family: 'Roboto', sans-serif;
+}
+.content-area .text-partners
+{
+	font-size: 150px;
+	font-family: 'Bebas Neue', cursive;
+	margin-left: 900px;
+	position: absolute;
+	margin-top: 20px;
+}
+.description
+{
+	margin-left: 1270px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.location
+{
+	border: 1px solid #f2f2f2;
+	width: 700px;
+	background-color: #f2f2f2;
+	position: absolute;
+	top: -150px;
+	margin-left: 225px;
+	height: 70px;
+	box-shadow: 0px 0px 5px #666666;
+}
+.form{
+	width: 400px;
+	height: 40px;
+	border-radius: 10px;
+	border: 1px solid;
+	font-size: 16px;
+	margin-top: 8px;
+	padding:6px;
+	position: relative;
+	margin-left: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+button{
+	width: 100px;
+	height: 55px;
+	border-radius: 10px;
+	z-index: 1;
+	color: #fff;
+	background-color: #8FBDD3;
+	border: 1px solid #8FBDD3;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 1.1rem;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #89aed9;
+	border-color: #89aed9;
+	transform: scaleY(1.03);
+}
+.fa-location-crosshairs{
+	margin-left: -26px;
+	position: absolute;
+	margin-top: 27px;
+	font-size: 20px;
+	color: #8FBDD3;
+}
+.textbox{
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 100px;
+	box-shadow: 0px 0px 5px #666666;
+	padding: 30px;
+}
+.getstarted .text-started
+{
+	background-color: #8FBDD3;
+	padding: 15px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-left: 440px;
+	border: solid 1px solid #8FBDD3;
+	font-family: "Open Sans",Arial,sans-serif;
+	font-size: 1.1rem;
+}
+.link-getstarted
+{
+	text-decoration: none;
+	color: white;
+}
+.getstarted:hover .text-started{
+	background-color: #89aed9;
+	border-color: #89aed9;
+	transform: scaleY(1.03); 
+}
+.content-area2
+{
+	position: relative;
+	background-color: #ddd;
+	height: 180px;
+}
+.content-area2 .text-cities-main
+{
+	font-size: 150px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 20px;
+}
+.content-area2 .description-cities
+{
+	margin-left: 200px;
+	font-size: 20px;
+	margin-top: 20px;
+	position: absolute;
+	font-family: 'Roboto', sans-serif;
+}
+.backgroundimg
+{
+	width: 100%;
+	height: 600px;
+	background-image: url(bg2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.cities
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+img
+{
+	height: 300px;
+	width: 300px;
+	object-fit: cover;
+	padding: 20px;
+	opacity: 1;
+	position: relative;
+	border-radius: 20px;
+}
+img:hover
+{
+	transform: scaleY(1.01);
+	opacity: 0.8;
+}
+.fa-angles-right
+{
+	font-size: 32px;
+	background-color: #8FBDD3;
+	border: 12px solid #8FBDD3;
+	color: white;
+	border-radius: 5px;
+	position: relative;
+	top: -80px;
+	right: -268px;
+}
+.text-cities
+{
+	font-family: 'Bebas Neue', cursive;
+	color: ;
+	position: relative;
+	top: -150px;
+	font-size: 30px;
+	color: #fff;
+	right: -30px;
+}
+.office-content
+{
+	position: relative;
+	width: 100%;
+	background: #ddd;
+	height: 180px;
+}
+.office-text
+{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 150px;
+	float: right;
+	margin-right: 200px;
+	margin-top: 20px;
+}
+.paragraph-office
+{
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	margin-right: -250px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+.office-description
+{
+	border: 1px solid #fff;
+	width: 600px;
+    height: 250px;
+    position: absolute;
+    background-color: #fff;
+    margin-top: -50px;
+    margin-left: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px #666666;
+}
+.business
+{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900px;
+}
+.business-paragraph
+{
+	font-family: 'Roboto', sans-serif;
+}
+.discover h2
+{
+	position: absolute;
+	text-decoration: none;
+	border: 1px solid #8FBDD3;
+	background-color: #8FBDD3;
+	font-family: "Open Sans",Arial,sans-serif;
+    font-size: 1.1rem;
+   	padding: 12px;
+   	margin-top: 170px;
+   	margin-left: 560px;
+   	border-radius: 12px;
+   	color: #fff;
+   	cursor: pointer;
+}
+.discover h2:hover
+{
+	transform: scaleY(1.03);
+	background-color: #89aed9;
+	border-color: #89aed9;
+}
+.bg3
+{
+	background-image: url(bg3.jpg);
+	width: 100%;
+	height: 600px;
+	background-position: center;
+}
+.last-text
+{
+	max-width: 1200px;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 50px;
+	margin-left: 350px;
+}
+.description1-bold
+{
+	line-height: 60px;
+	font-size: 14px;
+	text-transform: bold;
+}
+.description1-bold-p
+{
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 18px;
+}
+.description2-bold
+{
+	line-height: 60px;
+	font-size: 14px;
+	text-transform: bold;
+}
+.description2-bold-p
+{
+	font-size: 18px;
+}
+.box-last{
+	content: '';
+	background: #ddd;
+	height: 60px;
+	width: 100%;
+	position: relative;
+	top: 30px;
+	opacity: 0;
+}
+.box-last:hover{
+	opacity: 1;
+}
+.click .click-here
+{
+	line-height: 60px;
+	font-size: 18px;
+	padding-left: 20px;
+	position: absolute;
+	margin-top: -30px;
+	text-decoration: none;
+	color: #666666;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+.white-space
+{
+	padding-bottom: 300px;
+}
